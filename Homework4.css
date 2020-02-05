@@ -95,12 +95,14 @@ button {border: 0;
     flex-direction: column;
     background-color: #ddd;
     color: black;
-    padding: 15px 0;
+    padding: 15px 0px;
     width: 100%;
     text-transform: uppercase;
-    font-weight: 700;}
+    font-weight: 700;
+    margin-bottom: 15px;
+}
 ol {margin: 15px 0;}
-.product > ol > li {padding: 5px 0;}
+/*.product > ol > li {padding: 5px 0;}*/
 .btn{padding: 0 20px;
     height: 40px;
     font-size: 1em;}
@@ -124,13 +126,25 @@ a {color: #000;
     text-decoration: none;}
 /*footer, ul {    display: flex;*/
 /*    justify-content: flex-end;}*/
-footer{margin-top: 30px;
+footer{
+    margin-top: 30px;
     background-color: #ddd;
     padding: 20px;
-
-
    }
-/*.li {padding:0 10px;*/
-/*   }*/
+.line {line-height: 35px;}
+#ull {
+    justify-content: flex-end;
+    margin-left auto}
+
 #ull {display: flex;
-    justify-content: flex-end;}
+    margin-left: auto}
+
+#end {margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+margin-left: auto;}
+.container-f {max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;}
